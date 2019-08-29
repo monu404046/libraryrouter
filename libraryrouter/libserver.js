@@ -28,6 +28,6 @@ app.get("/auth",function(req,res){
         console.log("Server started listening")
     }) */
    /*  app.listen(process.env.PORT || 3000, () => console.log('Server Running on http://localhost:3000'));  */
-   app.listen(6262,function(req,res){
+   app.listen(process.env.PORT || 3000,function(req,res){
     console.log("server started listening")
 })
